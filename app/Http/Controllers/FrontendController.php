@@ -17,7 +17,11 @@ class FrontendController extends Controller
     }
     public function portofolio()
     {
-    	$model = DB::connection('pgsql')->table('data_model')->select(DB::raw('hari, s, i, r, d'))->orderBy("created_at")->get();
+        $model = DB::connection('pgsql')->table('data_model')->select(DB::raw('hari, s, i, r, d'))->orderBy("created_at")->get();
+        
+        // $model = DB::table('data_model')->select(DB::raw('hari', 's', 'i', 'r', ))->get();
+
+        // $model = array("hari"=>"senin", "s"=>1, "i"=>2, "r"=>3, "d"=>4);
 
         $categoriesmod=[];
         $suspect=[];

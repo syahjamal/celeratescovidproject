@@ -219,6 +219,6 @@
 
 		}]
 	});
-</script>
-@endsection
+</script> --}}
+{{-- @endsection
 

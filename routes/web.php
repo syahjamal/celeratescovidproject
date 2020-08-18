@@ -62,7 +62,8 @@ Route::group(['middleware'=>'auth'], function(){
 	Route::get('/perbandingan/{id}/edit', 'PerbandinganController@edit');
 	Route::post('/perbandingan/{id}/update', 'PerbandinganController@update');
 	Route::get('/perbandingan/{id}/delete', 'PerbandinganController@delete');
-});
+}
+);
 
 
 
