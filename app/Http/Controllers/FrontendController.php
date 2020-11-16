@@ -40,7 +40,7 @@ class FrontendController extends Controller
 
         /*dd($suspect);*/
 
-        return view('frontend.portofolio', ['data_perbandingan'=>$data_perbandingan, 'categoriesmod'=>$categoriesmod, 'suspect'=>$suspect, 'infected'=>$infected, 'recover'=>$recover, 'dead'=>$dead]
+        return view('frontend.model', ['data_perbandingan'=>$data_perbandingan, 'categoriesmod'=>$categoriesmod, 'suspect'=>$suspect, 'infected'=>$infected, 'recover'=>$recover, 'dead'=>$dead]
         );
     }
 

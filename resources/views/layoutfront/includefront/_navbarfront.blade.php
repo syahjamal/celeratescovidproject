@@ -21,7 +21,7 @@ $arr_link_full = explode('/', $link_full);
             <ul class="nav navbar-nav menu_nav justify-content-end">
                 <li class="nav-item <?php if ($arr_link_full[1]=='') {echo 'active';} ?>"><a class="nav-link" href="/">Beranda</a></li>
                 <li class="nav-item <?php if ($arr_link_full[1]=='service') {echo 'active';} ?>"><a class="nav-link" href="/service">Dasbor</a></li>
-                <li class="nav-item <?php if ($arr_link_full[1]=='portofolio') {echo 'active';} ?>"><a class="nav-link" href="/portofolio">Model</a></li>
+                <li class="nav-item <?php if ($arr_link_full[1]=='modeldepan') {echo 'active';} ?>"><a class="nav-link" href="/modeldepan">Model</a></li>
                 <li class="nav-item <?php if ($arr_link_full[1]=='about') {echo 'active';} ?>"><a class="nav-link" href="/about">Tentang Kami</a></li>
             </ul>
         </div>

@@ -21,7 +21,7 @@ Route::get('/about', 'FrontendController@about');
 
 Route::get('/service', 'FrontendController@service');
 
-Route::get('/portofolio', 'FrontendController@portofolio');
+Route::get('/modeldepan', 'FrontendController@portofolio');
 
 
 /*Route backend*/
